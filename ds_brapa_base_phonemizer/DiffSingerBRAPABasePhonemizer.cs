@@ -6,6 +6,6 @@ namespace OpenUtau.Core.DiffSinger
     public class DiffSingerBRAPABasePhonemizer : DiffSingerBasePhonemizer
     {
         protected override string GetDictionaryName()=>"dsdict-brapa.yaml";
-        protected override string GetLangCode()=>"pt";
+        public override string GetLangCode()=>"pt";
     }
 }
